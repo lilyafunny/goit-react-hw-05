@@ -1,8 +1,23 @@
 .link {
     text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
 
 .active {
-    color: blueviolet;
-    text-decoration: underline;
+    color: rgb(45, 0, 87);
+}
+
+.header {
+    height: 50px;
+    background-color: rgb(176, 134, 215);
+    display: flex;
+    align-items: center;
+
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    padding-left: 50px;
 }

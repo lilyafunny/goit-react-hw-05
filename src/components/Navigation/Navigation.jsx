@@ -9,8 +9,8 @@ const buildLinkClass = ({ isActive }) => {
 const Navigation = () => {
 
     return (
-        <header>
-            <nav>
+        <header className={s.header}>
+            <nav className={s.nav}>
                 <NavLink className={buildLinkClass} to='/'>Home</NavLink>
                 <NavLink className={buildLinkClass} to='/movies'>Movies</NavLink>
             </nav>

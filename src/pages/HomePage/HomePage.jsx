@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import MovieList from "../../components/MovieList/MovieList";
-import { fetchMovies } from "../../components/services/api";
+import { fetchMovies } from "../../services/api";
+import s from './HomePage.module.css'
 
 
 
@@ -23,7 +24,7 @@ const HomePage = () => {
 
     return (
         <>
-            <h1>Home</h1>
+            <h1 className={s.title}>Trending today</h1>
             <MovieList movies={movies} />
         </>
     )
